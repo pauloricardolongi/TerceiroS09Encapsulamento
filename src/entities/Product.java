@@ -6,6 +6,11 @@ public class Product {
 	public double price;
 	public int quantity;
 	
+	//construtor padrão
+	public Product() {
+		
+	}
+	
 	public Product(String nome, double preco, int quantidade) {
 		this.name = nome;
 		this.price = preco;

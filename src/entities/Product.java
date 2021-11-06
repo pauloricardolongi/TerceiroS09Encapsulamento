@@ -11,6 +11,12 @@ public class Product {
 		this.price = preco;
 		this.quantity = quantidade;
 		
+	}//construtor sobrecarga
+	public Product(String nome, double preco) {
+		this.name = nome;
+		this.price = preco;
+		
+		
 	}
 	
 
